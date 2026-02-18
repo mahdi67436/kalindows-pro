@@ -1,0 +1,87 @@
+[KDE]
+# Kalindows Pro - KDE Configuration
+# Apply Windows 11-style theming
+
+[General]
+ColorScheme=KalindowsDark
+LookAndFeelPackage=org.kde.breezedark.desktop
+WidgetStyle=breeze
+IconsTheme=Papirus-Dark
+ShellShortcuts=noticesSettings,showActivityManager,stopAll,locked,start-overlay,keyboard
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=rgb
+font=Noto Sans,10,-1,5,50,0,0,0,1,0
+menuFont=Segoe UI,10,-1,5,50,0,0,0,1,0
+toolBarFont=Segoe UI,9,-1,5,50,0,0,0,1,0
+windowTitleFont=Segoe UI,10,-1,5,75,0,0,0,1,0
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+# System Bell
+UseSystemBell=true
+VolumeFeedback=true
+SingleClickActivation=false
+ShowDeleteConfirmations=true
+ShowSymbolicIconsInMenu=true
+Autostart=false
+
+# Animation speed
+MaxWindowWidth=1000
+MaxWindowHeight=700
+WindowScalingEnabled=true
+IntegerFontScale=true
+
+# Plasma
+PanelTransparency=true
+BackgroundOpacity=90
+
+[Colors:Windows]
+# Windows-style accent color
+WindowBackgroundAlt=#1e1e1e
+ButtonBackground=#2d2d2d
+ButtonForeground=#ffffff
+Link=#3498db
+LinkVisited=#9b59b6
+SelectionBackground=#0078d4
+SelectionForeground=#ffffff
+WindowBackground=#1e1e1e
+WindowForeground=#ffffff
+
+[Colors:KalindowsDark]
+# Custom Kalindows color scheme
+Background= #1e1e1e
+BackgroundAlternate= #252525
+Foreground= #ffffff
+Highlight= #0078d4
+HighlightedText= #ffffff
+Link= #3498db
+LinkVisited= #9b59b6
+Negative= #e74c3c
+Neutral= #f39c12
+Positive= #2ecc71
+WindowBackgroundAlternate= #252525
+WindowBackground= #1e1e1e
+WindowForeground= #ffffff
+
+[Settings]
+# Window decorations
+KDEttingsVersion=5.26
+
+# File manager
+ShowDotFiles=true
+ShowHiddenFiles=false
+RememberOpenWindows=true
+OpenNewWindowOnSingleClick=true
+
+# Trash
+ConfirmTrash=false
+EmptyTrashDays=30
+
+# Boot
+BootLoader=NoBootLoader
+ShutdownType=Halt
+UseLockScreen=true
+LockScreenBeforeSleep=true

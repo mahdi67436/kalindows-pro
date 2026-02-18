@@ -1,0 +1,53 @@
+[Plasma]
+# Kalindows Pro - Advanced Plasma Configuration
+# Windows 11-style premium experience
+
+# Look and Feel
+LookAndFeelPackage=org.kde.breezedark.desktop
+
+# Desktop Theme
+PluginForceDirectOutputDialogs=true
+DialogButtonLayout=0
+ToolButtonStyle=0
+ButtonsHaveIcons=true
+MacShortcuts=true
+
+# Desktop Settings
+DesktopByScreen=1
+MultiScreenDesktop=false
+SeparateScreenFocus=false
+X11Drag=all
+
+# KRunner
+KRunnerEnabled=true
+KRunnerShow Runner=false
+KRunnerWebSearchEnabled=true
+KRunnerFuzzyMatching=true
+
+# System Tray
+SystemTrayBehaviours=2
+ShowSystemTray=true
+SystemTrayContainsMultiple=true
+useSystemTray=true
+TruncateSystemTrayContents=2
+
+# Panels
+PanelContainsDock=true
+PanelsLock=true
+ToolTipsEnabled=true
+
+# Desktop Grid
+DesktopGridRows=1
+DesktopGridColumns=1
+
+# Activities
+CurrentActivity=00000000-0000-0000-0000-000000000000
+
+# Containments
+ContainmentForScreen[1]=2
+
+# Workspace
+UseTranslucency=true
+BlurBehindEnabled=true
+ShowDesktop=true
+WindowsCatchAltTab=true

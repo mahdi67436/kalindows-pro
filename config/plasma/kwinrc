@@ -1,0 +1,60 @@
+[Windows]
+# Kalindows Pro - KWin Window Manager Configuration
+
+# Border settings
+BorderSize=Normal
+BorderlessMaximizedWindows=true
+ShadowlessWindows=false
+TransparentDolphinView=true
+TransparentKonsoleView=true
+TransparentKCalcView=true
+
+# Window behavior
+WindowPlacement=Smart
+FocusPolicy=ClickToFocus
+DelayFocusInterval=0
+ClickRaise=false
+AutoRaise=false
+AutoRaiseInterval=50
+ShadeHover=false
+ShadeHoverInterval=500
+
+# Mouse bindings
+MouseBindings=Meta:Move,Meta:Resize,Alt+F4:Close,Alt+Tab:NextWindow,Meta+Tab:NextWindow,Meta+Shift+Tab:PreviousWindow,Alt+Shift+Tab:PreviousWindow,Meta+W:Maximize,Meta+H:Minimize,Meta+M:Maximize
+
+# Title bar buttons
+ButtonsOnLeft=MS
+ButtonsOnRight=IAX
+# M = Menu, S = Sticky, I = Minimize, A = Maximize, X = Close
+
+# Snap
+WindowSnapZone=10
+SnapOnlyWhenMoving=true
+
+# Compositing
+[Compositing]
+Enabled=true
+OpenGLIsUnsafe=false
+GLCoreContext=true
+HiddenPreviews=4
+MaxFPS=60
+XRenderSurface=true
+ScaleMethod=Quality
+
+# Desktop
+[Desktop]
+Rows=1
+Columns=1
+Desktop1_1Name=Main
+Desktop2_1Name=Desktop 2
+Desktop3_1Name=Desktop 3
+Desktop4_1Name=Desktop 4
+
+# Desktops
+[Desktops]
+Number=1
+Name_1=Main
+
+# Fallback
+[Fallback]
+SoundEnabled=true
